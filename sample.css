@@ -1,0 +1,57 @@
+/* general page styles */
+body {
+	background-image: url('./squairy_light.png');
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+
+/* container */
+.container {
+	width: 940px;
+	margin-right: auto;
+  	margin-left: auto;
+  	padding-bottom: 30px;
+}
+
+/* header */
+.header {
+	height: 100px;
+	background-color: #222;
+	padding: 10px;
+}
+
+.header h1 {
+	font-size: 400%;
+	color: #aaa;
+}
+
+/* body sections */
+section {
+	margin-bottom: 30px;
+}
+
+h2 {
+}
+
+
+/* tables */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+table th {
+  font-weight: bold;
+}
